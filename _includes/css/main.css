@@ -278,22 +278,25 @@ section.success {
       max-width: 23.5%;
     }
   } */
-  .portfolio-links {
+  
+.portfolio-links {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10px; /* Space between the two images */
     margin-top: 10px;
 }
 
 .portfolio-links a {
-    display: inline-block;
+    display: block;
+    width: 100%; /* Ensure each link takes up 50% of the space */
 }
 
 .portfolio-links img {
-    max-width: 45px; /* Adjust size of the link images */
+    max-width: 100%; /* Make the image fill the entire width of the link */
     height: auto;
     border-radius: 4px;
 }
+
 
 .btn-outline {
     margin-top: 15px;
