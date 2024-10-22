@@ -1,5 +1,5 @@
 ---
-title: DealSeek Deals and Offers
+title: DealSeek - Deals and Offers
 layout: default
 modal-id: 3
 date: 2014-07-16
