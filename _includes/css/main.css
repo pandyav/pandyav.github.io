@@ -278,7 +278,7 @@ section.success {
       max-width: 23.5%;
     }
   } */
-  
+
 .portfolio-links {
     display: flex;
     justify-content: space-between;
@@ -295,6 +295,11 @@ section.success {
     max-width: 100%; /* Make the image fill the entire width of the link */
     height: auto;
     border-radius: 4px;
+}
+
+.portfolio-title {
+    text-align: center;
+    margin-top: 10px;
 }
 
 
