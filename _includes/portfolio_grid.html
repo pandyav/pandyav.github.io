@@ -9,6 +9,9 @@
     </div>
     <div class="portfolio-flex-row">
       {% for post in site.posts %}
+      <div class="portfolio-title">
+        <h4>{{ post.title }}</h4>
+      </div>
       <div class="portfolio-flex-item portfolio-item">
         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
           <div class="caption">
@@ -18,15 +21,13 @@
           </div>
           <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
         </a>
-        <div class="portfolio-title">
-          <h4>{{ post.title }}</h4>
-        </div>
+      
 
         <div class="portfolio-links">
-          <a href="{{ post.ios }}" class="portfolio-link" data-toggle="modal">
+          <a href="{{ post.link_ios }}" class="portfolio-link" data-toggle="modal">
             <img src="img/appstorelink.png" class="img-responsive" alt="{{ post.alt }}">
           </a>
-          <a href="{{ post.android }}" class="portfolio-link" data-toggle="modal">
+          <a href="{{ post.link_android }}" class="portfolio-link" data-toggle="modal">
             <img src="img/playstorelink.png" class="img-responsive" alt="{{ post.alt }}">
           </a>
         </div>
