@@ -39,11 +39,11 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: X (twitter)
+  - title: x
     url: https://x.com/vaibhavp06
   - title: facebook
     url: https://www.facebook.com/vaibhav.pandya.9250/
-  - title: LinkedIn
+  - title: linkedin
     url: https://www.linkedin.com/in/vaibhav-pandya-9b16572b/
 
   - title: instagram
