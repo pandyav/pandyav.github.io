@@ -321,7 +321,7 @@ section.success {
     text-align: center;
     margin-top: 10px;
 }
-.rocket-primary {
+/* .rocket-primary {
     display: inline-block;
     width: 50px; /* Adjust as needed */
     height: 50px;
@@ -340,7 +340,7 @@ section.success {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* Center the icon */
-  }
+  } */
   
 
 .btn-outline {
