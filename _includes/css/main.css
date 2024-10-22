@@ -332,7 +332,7 @@ section.success {
   }
   
   .rocket-primary:after {
-    content: '\f135'; /* Unicode for Font Awesome rocket icon */
+    content: '\e027'; /* Unicode for Font Awesome rocket icon */
     font-family: FontAwesome;
     font-size: 50px; /* Adjust size */
     color: #ecf0f1; /* Icon color */
