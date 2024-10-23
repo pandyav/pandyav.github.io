@@ -15,38 +15,47 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
-            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-            <div class="portfolio-links">
-              <a href="{{ post.link_ios }}" class="portfolio-link" data-toggle="modal">
-                <img src="img/appstorelink.png" class="img-responsive" alt="{{ post.alt }}">
-              </a>
-              <a href="{{ post.link_android }}" class="portfolio-link" data-toggle="modal">
-                <img src="img/playstorelink.png" class="img-responsive" alt="{{ post.alt }}">
-              </a>
+            
+            <!-- Image section with fixed size -->
+            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered portfolio-img" alt="{{ post.alt }}">
+            
+            <!-- App Store and Play Store links side by side -->
+            <div class="portfolio-links text-center">
+                <a href="{{ post.link_ios }}" class="portfolio-link" data-toggle="modal">
+                    <img src="img/appstorelink.png" class="img-responsive store-icon" alt="App Store">
+                </a>
+                <a href="{{ post.link_android }}" class="portfolio-link" data-toggle="modal">
+                    <img src="img/playstorelink.png" class="img-responsive store-icon" alt="Play Store">
+                </a>
             </div>
+            
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
+            
             <ul class="list-inline item-details">
-              {% if post.client %}
-              <li>Client:
-                <strong>{{ post.client }}</strong>
-              </li>
-              {% endif %}
-              {% if post.project-date %}
-              <li>Date:
-                <strong>{{ post.project-date }}</strong>
-              </li>
-              {% endif %}
-              {% if post.category %}
-              <li>Service:
-                <strong>{{ post.category }}</strong>
-              </li>
-              {% endif %}
+                {% if post.client %}
+                <li>Client:
+                    <strong>{{ post.client }}</strong>
+                </li>
+                {% endif %}
+                {% if post.project-date %}
+                <li>Date:
+                    <strong>{{ post.project-date }}</strong>
+                </li>
+                {% endif %}
+                {% if post.category %}
+                <li>Service:
+                    <strong>{{ post.category }}</strong>
+                </li>
+                {% endif %}
             </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
-          </div>
+            
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+                <i class="fa fa-times"></i> Close
+            </button>
+        </div>
+        
         </div>
       </div>
     </div>
