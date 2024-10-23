@@ -2,13 +2,13 @@
 title: Stock Market Financials
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2024-05-29
 img: stockfin app logo.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: May 2024
+client: VP Appz
+category: Mobile Development with backend on AWS
+description: An all-in-one platform for tracking and analyzing the financial performance of over 10,000 stocks, directly sourced from SEC Edgar. Historical financial data going back 20+ years. Also see stocks ranked by market cap, revenue and net income in real time. 
 link_android: https://play.google.com/store/apps/details?id=com.vpappz.stockfin
 link_ios: https://apps.apple.com/us/app/stock-financials-app/id6503324028
 ---
