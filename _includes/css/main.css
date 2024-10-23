@@ -321,6 +321,27 @@ section.success {
     text-align: center;
     margin-top: 10px;
 }
+
+/* Style for the rocket icon */
+.navbar-brand .navbar-icon {
+    font-size: 18px;  /* Adjust the size of the icon */
+    margin-right: 8px;  /* Space between the icon and the text */
+    color: #FD6E8A;  /* Color of the rocket icon */
+    transition: transform 0.3s ease;  /* Smooth hover effect */
+  }
+  
+  /* Hover effect for the rocket icon */
+  .navbar-brand:hover .navbar-icon {
+    transform: rotate(20deg) scale(1.2);  /* Rotate and scale the icon on hover */
+    color: #A2122F;  /* Change color on hover */
+  }
+  
+  /* Additional customization for the navbar text */
+  .navbar-brand {
+    font-size: 22px;  /* Size of the site title text */
+    color: #474b52;  /* Color of the site title */
+  }
+  
 /* .rocket-primary {
     display: inline-block;
     width: 50px; /* Adjust as needed */
