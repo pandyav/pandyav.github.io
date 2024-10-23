@@ -9,6 +9,6 @@ project-date: September 2023
 client: VP Appz
 category: Mobile Development with ML model running on AWS
 description: The Ultimate Mind Reading Genie AI! Will you dare to challenge the AI genie? This AI mind reading guru genie can magically guess anyone's name with just a few yes/no questions. Uses a machine learning model that runs on AWS and gets smarter on every play
-link_android: https://play.google.com/store/apps/details?id=com.vpappz.stockfin
-link_ios: https://apps.apple.com/us/app/stock-financials-app/id6503324028
+link_android: https://play.google.com/store/apps/details?id=com.vpappz.guessinator_client
+link_ios: https://apps.apple.com/us/app/guessbot-ai-guess-who/id6463945436
 ---

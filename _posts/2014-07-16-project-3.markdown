@@ -9,6 +9,6 @@ project-date: June 2023
 client: VP Appz
 category: Android Development
 description: An app that shows trending deals and offers online
-link_android: https://play.google.com/store/apps/details?id=com.vpappz.stockfin
-link_ios: https://apps.apple.com/us/app/stock-financials-app/id6503324028
+link_android: https://play.google.com/store/apps/details?id=com.vaibapps.amazondeals
+link_ios: https://apps.apple.com/us/app/stock-financials-app/id6503324028f
 ---
