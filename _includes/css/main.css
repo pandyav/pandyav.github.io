@@ -345,7 +345,7 @@ section.success {
 /* Ensure all portfolio images are the same size */
 .portfolio-img {
     width: 100%;
-    height: 300px; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
     object-fit: contain; /* Ensures the image fits and maintains aspect ratio */
     margin-bottom: 20px;
 
@@ -353,7 +353,7 @@ section.success {
 
 /* Styling for App Store and Play Store icons */
 .store-icon {
-    width: 100%; /* Adjust size as needed */
+    width: 120px; /* Adjust size as needed */
     margin: 0 10px;
     display: inline-block;
 }
